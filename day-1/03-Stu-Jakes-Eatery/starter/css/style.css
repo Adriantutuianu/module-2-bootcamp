@@ -1,13 +1,5 @@
 /* Navigation styles */
 
-
-
-
-
-/* Column styles */
-
-/* Footer Styles */
-
 .logo {
     background: white;
     height: 230px;
@@ -62,6 +54,8 @@ background-color: yellow;
 background-color: skyblue;
 }
 
+/* Column styles */
+
 .column {
     display: flex;
     height: 1200px;
@@ -111,7 +105,31 @@ background-color: skyblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* Footer Styles */
 
+.footer {
+   background-color: black;
+   height: 60px;
+    }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 350px;
+    margin: 0 auto;   
+    background-color: black;
+    height: 60px;
+}
 
+.fb {
+color: skyblue;
+}
 
+.tw {
+color: yellow;
+}
+
+.ig {
+color: red;
+}
