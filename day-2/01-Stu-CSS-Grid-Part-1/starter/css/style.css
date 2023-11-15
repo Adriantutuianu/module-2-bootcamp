@@ -28,6 +28,30 @@ body {
 #CTA {
   grid-area: CTA;
   background-image: url("../images/shopping-bag.png");
+  justify-content: 0px 5%;
+  cursor: pointer;
+
+}
+
+.heroGridArea {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+  z-index: 100;
+}
+
+#headline {
+  background-color: rgba(255,255,255,0.8);
+  border-bottom: 5px solid #FF6200;
+  position: absolute;
+  right: -10px;
+  top: 100px;
+  padding: 25px;
+  max-width: 550px;
+  z-index: 100;
 
 }
 
