@@ -3,6 +3,28 @@ body {
 }
 
 /* Grid CSS */
+#heroGrid {
+  margin: 0px 5%;
+  display: grid;
+  min-height: 500px;
+  height: 70vh;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 75% 25%;
+  grid-template-areas: 'featuredProduct secondaryProduct'
+  'featuredProduct CTA';
+}
+
+#featuredProduct {
+  grid-area: featuredProduct;
+}
+
+#secondaryProduct {
+  grid-area: secondaryProduct;
+}
+
+#CTA {
+  grid-area: CTA;
+}
 
 
 /* Category Grid CSS */
